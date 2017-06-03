@@ -1,5 +1,3 @@
-import com.sun.org.apache.bcel.internal.generic.Select;
-
 /**
  * Created by Gerald Glasgow on 6/3/2017.
  */
@@ -14,4 +12,3 @@ public class Main {
         random.startSelectR();
     }
 }
-//,200,300,400,500,600,700,800,900,1000

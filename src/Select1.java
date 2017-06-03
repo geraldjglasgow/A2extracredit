@@ -69,7 +69,7 @@ public class Select1 {
             }
             time[tests][k] /= (double)(iterations);
         }
-        System.out.println("Results for pivot = first array element for average case");
+        System.out.println("Results for pivot = first array index for average case");
         ctrl.printResults(time, tests);
         System.out.println();
 
@@ -85,7 +85,7 @@ public class Select1 {
             }
             time[tests][k] /= (double) (iterations);
         }
-        System.out.println("Results for pivot = first array element for worst case");
+        System.out.println("Results for pivot = first array index for worst case");
         ctrl.printResults(time, tests);
         System.out.println();
     }
