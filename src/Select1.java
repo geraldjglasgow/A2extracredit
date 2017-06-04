@@ -24,12 +24,8 @@ public class Select1 {
     public void Select1(int n, int k){
         int low =0; int up = n;
         boolean found = false;
-        //ctrl.printArray(a);
-        //System.out.println("ORIGINAL: " + low + " " + up);
         while(!found) {
             int j = partition(low, up);
-            //System.out.println("PIVOT: " + j + " high:low " + low + ":" + up);
-            //ctrl.printArray(a);
             if (k == j) found = true;
             else if (k < j) up = j-1;
             else low = j + 1;
